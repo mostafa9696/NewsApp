@@ -1,0 +1,97 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id("kotlin-android")
+    id("kotlin-android-extensions")
+    id("kotlin-kapt")
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.newsapp"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+        test.java.srcDirs += 'src/test/kotlin'
+        androidTest.java.srcDirs += 'src/androidTest/kotlin'
+    }
+
+    dataBinding {
+        enabled true
+    }
+
+    viewBinding {
+        enabled true
+    }
+    testOptions.unitTests {
+        includeAndroidResources = true
+    }
+}
+
+dependencies {
+
+    //Local Libs
+    implementation project(':domain')
+    implementation project(':data')
+    implementation project(':data')
+
+    implementation appDependencies.appCompat
+    implementation appDependencies.androidxKtx
+    implementation appDependencies.constraintLayout
+    implementation appDependencies.supportV4
+    implementation appDependencies.fragmentKtx
+    implementation appDependencies.lifecycleExtensions
+
+    // hilt
+    implementation appDependencies.hiltAndroid
+    kapt appDependencies.hiltAndroidCompiler
+    kapt appDependencies.hiltCompiler
+
+    //Material
+    implementation appDependencies.material
+
+
+    //Test Libs
+    testImplementation testDependencies.junit
+    testImplementation testDependencies.robolectric
+    testImplementation testDependencies.androidxJunit
+    testImplementation testDependencies.espressoCore
+    testImplementation testDependencies.runner
+    testImplementation testDependencies.rules
+    testImplementation testDependencies.googleTruth
+    testImplementation testDependencies.archComponentTest
+    testImplementation testDependencies.coroutinesTest
+    testImplementation testDependencies.MOCKITO
+    testImplementation(testDependencies.MOCKITO_KOTLIN) {
+        because "Mockito itself does't work nicely with Kotlin. so this utils are needed"
+    }
+    androidTestImplementation testDependencies.espressoCore
+    androidTestImplementation testDependencies.runner
+    androidTestImplementation testDependencies.rules
+    androidTestImplementation testDependencies.androidxJunit
+    androidTestImplementation testDependencies.androidxCoreTest
+    androidTestImplementation testDependencies.mockWebServer
+}
