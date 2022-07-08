@@ -65,6 +65,8 @@ dependencies {
     implementation appDependencies.supportV4
     implementation appDependencies.fragmentKtx
     implementation appDependencies.lifecycleExtensions
+    implementation appDependencies.navigationFragment
+    implementation appDependencies.navigationUI
 
     // hilt
     implementation appDependencies.hiltAndroid

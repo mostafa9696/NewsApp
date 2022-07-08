@@ -14,7 +14,7 @@ ext {
     glideVersion = '4.13.1'
     hiltVersion = '2.41'
     hiltCompilerVersion = '1.0.0'
-
+    navigation = '2.5.0'
     // Data
     retrofitVersion = '2.7.0'
     gsonVersion = '2.9.0'
@@ -52,6 +52,8 @@ ext {
             hiltAndroid           : "com.google.dagger:hilt-android:$hiltVersion",
             hiltAndroidCompiler   : "com.google.dagger:hilt-android-compiler:$hiltVersion",
             hiltCompiler          : "androidx.hilt:hilt-compiler:$hiltCompilerVersion",
+            navigationFragment    : "androidx.navigation:navigation-fragment-ktx:$navigation",
+            navigationUI          : "androidx.navigation:navigation-ui-ktx:$navigation"
     ]
 
     dataDependencies = [
