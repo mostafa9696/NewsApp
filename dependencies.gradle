@@ -52,6 +52,7 @@ ext {
             hiltAndroid           : "com.google.dagger:hilt-android:$hiltVersion",
             hiltAndroidCompiler   : "com.google.dagger:hilt-android-compiler:$hiltVersion",
             hiltCompiler          : "androidx.hilt:hilt-compiler:$hiltCompilerVersion",
+            hiltCore              : "com.google.dagger:hilt-core:$hiltVersion",
             navigationFragment    : "androidx.navigation:navigation-fragment-ktx:$navigation",
             navigationUI          : "androidx.navigation:navigation-ui-ktx:$navigation"
     ]

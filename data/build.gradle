@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id("kotlin-kapt")
 }
 
 android {
@@ -36,6 +37,11 @@ dependencies {
     api dataDependencies.retrofit
     api dataDependencies.gsonConverter
     api dataDependencies.loggingInterceptor
+
+    // hilt
+    implementation appDependencies.hiltAndroid
+    kapt appDependencies.hiltAndroidCompiler
+    kapt appDependencies.hiltCompiler
 
     testImplementation testDependencies.junit
     testImplementation testDependencies.googleTruth
