@@ -1,16 +1,13 @@
 package com.example.newsapp.utils
 
-import androidx.annotation.StringRes
-import com.example.newsapp.R
 import java.net.UnknownHostException
 
 internal object ExceptionHandler {
 
-    @StringRes
-    fun parse(t: Throwable): Int {
+    fun parse(t: Throwable): String {
         return when (t) {
-            is UnknownHostException -> R.string.check_internet_connection
-            else -> R.string.error_occured
+            is UnknownHostException -> "Check your internet connection"
+            else -> t.message.toString()
         }
     }
 

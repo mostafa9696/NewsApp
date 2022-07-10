@@ -8,7 +8,6 @@ import com.example.newsapp.base.BaseViewModel
 import com.example.newsapp.mapper.toPresentation
 import com.example.newsapp.model.ArticlePresentation
 import com.example.newsapp.model.DataResource
-import com.example.newsapp.model.ErrorResponse
 import com.example.newsapp.utils.ExceptionHandler
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineExceptionHandler
@@ -27,9 +26,9 @@ class NewsViewModel @Inject constructor(
         get() = _newsLiveData
 
     override val coroutineExceptionHandler = CoroutineExceptionHandler { _, exception ->
-        val messageID = ExceptionHandler.parse(exception)
+        val message = ExceptionHandler.parse(exception)
         _newsLiveData.value =
-            DataResource.Error(errorResponse = ErrorResponse(messageID))
+            DataResource.Error(message)
     }
 
     fun getArticles() {

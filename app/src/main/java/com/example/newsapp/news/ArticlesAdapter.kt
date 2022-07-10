@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
+import com.example.newsapp.R
 import com.example.newsapp.databinding.ItemArticleBinding
 import com.example.newsapp.model.ArticlePresentation
 
@@ -22,6 +23,7 @@ class ArticlesAdapter(
             binding.apply {
                 Glide.with(binding.root)
                     .load(article.imageUrl)
+                    .placeholder(R.drawable.placeholder)
                     .transition(DrawableTransitionOptions.withCrossFade())
                     .into(ivArticle)
                 tvName.text = article.title

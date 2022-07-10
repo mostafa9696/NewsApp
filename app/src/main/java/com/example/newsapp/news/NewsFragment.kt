@@ -1,9 +1,9 @@
 package com.example.newsapp.news
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import com.example.newsapp.R
 import com.example.newsapp.base.BaseFragment
 import com.example.newsapp.databinding.FragmentNewsBinding
@@ -37,7 +37,7 @@ class NewsFragment : BaseFragment<FragmentNewsBinding>() {
                 }
                 is DataResource.Error -> {
                     binding.progressbar.remove()
-                    showToast(getString(it.error?.messageID!!))
+                    showToast(it.error!!)
                 }
             }
         }
@@ -46,7 +46,8 @@ class NewsFragment : BaseFragment<FragmentNewsBinding>() {
     private fun setNewsList(articles: List<ArticlePresentation>?) {
         articles?.let {
             adapter = ArticlesAdapter(articles) {
-                Log.d("bb9", it.authorName.toString())
+                val action = NewsFragmentDirections.actionNewsFragmentToDetailsFragment(it)
+                findNavController().navigate(action)
             }
             binding.articlesRv.adapter = adapter
         }
