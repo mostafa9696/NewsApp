@@ -1,0 +1,76 @@
+{
+  "articles": [
+    {
+      "author": "Thomas Macaulay",
+      "title": "New open-source model that dwarfs GPT-3 aims to free AI from Big Tech labs",
+      "description": "A language model bigger than GPT-3 has arrived with a bold ambition: freeing AI from Big Tech's clutches.\r\n\r\nNamed BLOOM, the large language model (LLM) promises a similar performance ...",
+      "url": "http://thenextweb.com/news/bloom-new-open-source-ai-model-bigger-than-gpt-3-large-language-model-llm",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/neural?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F07%2FUntitled-design-1-2.jpg&signature=2b3ea2c0f7c6537b588fda34f8b22cbc",
+      "publishedAt": "2022-07-12T19:39:28Z"
+    },
+    {
+      "author": "Tristan Greene",
+      "title": "There's a quantum crime spree coming — here's how IBM plans to save us",
+      "description": "The US National Institute of Standards and Technology (NIST) recently published the first round of winners in its six-year-long competition to determine which algorithms will protect ...",
+      "url": "http://thenextweb.com/news/theres-quantum-crime-spree-coming-heres-how-ibm-plans-to-save-us",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/neural?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F03%2Fquantumbinary.jpg&signature=e8f421559f0bac9ad1e0b0e9022f9518",
+      "publishedAt": "2022-07-12T18:29:28Z"
+    },
+    {
+      "author": "Ioanna Lykiardopoulou",
+      "title": "A deep glimpse into the early universe: Here are the first full-color images from the James Webb Telescope",
+      "description": "On Friday, NASA released the first full-color image from the James Webb Space Telescope (JWST) — the largest and most powerful telescope ever launched into space.\r\n\r\nThanks to its ...",
+      "url": "http://thenextweb.com/news/here-are-first-full-color-images-from-james-webb-telescope",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/neural?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F07%2FUntitled-design-92-7.jpg&signature=e7056b476d198e93ed4a2fec0f5af2db",
+      "publishedAt": "2022-07-12T16:15:40Z"
+    },
+    {
+      "author": "Cate Lawrence",
+      "title": "Microsoft’s developed smart fabric that can detect objects and gestures",
+      "description": "This week Microsoft published a patent for smart fabric that recognizes objects and touch input. Alas, I'm skeptical of its utility.",
+      "url": "http://thenextweb.com/news/microsofts-got-a-new-smart-fabric-object-and-gesture-detection-patent",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F07%2FUntitled-design-5.png&signature=fd7ea52209ffbccbd665a4c844db56e2",
+      "publishedAt": "2022-07-12T15:40:51Z"
+    },
+    {
+      "author": "Ioanna Lykiardopoulou",
+      "title": "Feast your earthbound eyes on this breathtaking new image of the ancient universe",
+      "description": "The first full-color picture from NASA’s James Webb Space Telescope (JWST) has just been released — and it’s inspiring.\r\n\r\nAccording to the space agency, it’s the deepest and ...",
+      "url": "http://thenextweb.com/news/feast-your-earthbound-eyes-on-this-breathtaking-new-image-of-the-ancient-universe",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/neural?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F07%2FUntitled-design-92-6.jpg&signature=6800953e2a7760658ffa92764703a3cf",
+      "publishedAt": "2022-07-12T12:49:14Z"
+    },
+    {
+      "author": "Pippa Hardy",
+      "title": "What to say in an interview if you were laid off",
+      "description": "Interviews can be tricky. You always want to put your best foot forward. So, naturally, you prepare examples of your key skills, prepare some case studies to talk through, plan a nice ...",
+      "url": "http://thenextweb.com/news/what-to-say-in-an-interview-if-you-were-laid-off",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F07%2FUntitled-design-3.jpg&signature=9ee1fc630259d8a691473d941a383286",
+      "publishedAt": "2022-07-12T10:00:26Z"
+    },
+    {
+      "author": "Cate Lawrence",
+      "title": "Oi devs! Here's why your next career move should be in sustainability",
+      "description": "Are you looking for your next developer role? Well, you might want to consider a gig at a company aiming to make the world a better place. \r\n\r\nResearch commissioned by Ordnance Survey ...",
+      "url": "http://thenextweb.com/news/the-career-rewards-and-challenges-for-devs-in-sustainability-and-mobility",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/shift?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F07%2FUntitled-design-1.png&signature=a5979609d522a1d184c4cdbf8192d9b0",
+      "publishedAt": "2022-07-12T09:02:38Z"
+    },
+    {
+      "author": "Ben Dickson",
+      "title": "GitHub Copilot is the first real product based on large language models",
+      "description": "The public release of GitHub Copilot is an interesting case study in the development of successful products based on large language models.",
+      "url": "http://thenextweb.com/news/github-copilot-large-language-models",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/neural?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F07%2Fcopilot.jpg&signature=3d09a4ddf009a22c02f20583ecfd57ce",
+      "publishedAt": "2022-07-10T20:31:16Z"
+    },
+    {
+      "author": "Ioanna Lykiardopoulou",
+      "title": "These emoji don't mean what you think they mean",
+      "description": "Slack and Duolingo’s latest survey found that 57% of global respondents believe messages are “incomplete” without an emoji. But nearly the same percentage also admits that they've ...",
+      "url": "http://thenextweb.com/news/these-emoji-dont-mean-what-you-think",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F07%2FUntitled-design-92-8.jpg&signature=aad0d20309871ffbdccf93b6e2bf1005",
+      "publishedAt": "2022-07-13T11:38:40Z"
+    }
+  ]
+}

@@ -32,7 +32,7 @@ ext {
     mockitoInlineVersion = '2.13.0'
     MOCKITO_KOTLIN = "2.1.0"
     mockWebServerVersion = '4.2.1'
-    robolectricVersion = '4.3'
+    robolectricVersion = '4.7.3'
     androidxTestCoreVersion = '1.0.0'
     runnerVersion = '1.2.0'
     rulesVersion = '1.2.0'

@@ -1,0 +1,84 @@
+{
+  "articles": [
+    {
+      "author": "HELENA ALVES and JOSEPH WILSON",
+      "title": "Wildfires scorch parts of Europe amid extreme heat wave",
+      "description": "LISBON, Portugal (AP) — A spate of wildfires is scorching parts of Europe, with firefighters battling blazes in Portugal, Spain and southern France on Wednesday amid an unusual heat wave that authorities are linking to climate change.",
+      "url": "https://apnews.com/56ed1dfb59bd9c4e9047558102ddc994",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/73e96a3ae52e458bbf354ef476d0952f/3000.jpeg",
+      "publishedAt": "2022-07-13T12:52:46Z"
+    },
+    {
+      "author": "CHRISTOPHER RUGABER",
+      "title": "US inflation surges again in June, raising risks for economy",
+      "description": "WASHINGTON (AP) — U.S. inflation surged to a new four-decade high in June because of rising prices for gas, food and rent, squeezing household budgets and pressuring the Federal Reserve to raise interest rates aggressively -- trends that raise the risk of a recession.",
+      "url": "https://apnews.com/74e1a5c9bced40460e4079f62e980095",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/f374ea1af2b943f5916fa79966f54983/3000.jpeg",
+      "publishedAt": "2022-07-13T04:01:25Z"
+    },
+    {
+      "author": "JOSH BOAK, JOSEF FEDERMAN and AAMER MADHANI",
+      "title": "In Mideast, Biden cites 'bone deep' bond between US, Israel",
+      "description": "JERUSALEM (AP) — Joe Biden opened his first visit to the Mideast as president on Wednesday by declaring a “bone deep” bond between the United States and Israel and pledging to strengthen economic connections between the two countries going forward.",
+      "url": "https://apnews.com/4a124efe6f0c80c1bdfd76b6552569e0",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/1c78786c5fef4724b4498efe2358a48b/3000.jpeg",
+      "publishedAt": "2022-07-13T04:06:00Z"
+    },
+    {
+      "author": "KRISHAN FRANCIS and KRUTIKA PATHI",
+      "title": "Sri Lanka in crisis: President flees and ire turns to PM",
+      "description": "COLOMBO, Sri Lanka (AP) — Sri Lanka’s president fled the country Wednesday, plunging a nation already reeling from economic chaos into more political turmoil.",
+      "url": "https://apnews.com/bb028edb6d4ac8dd01f3867d5a1ccdb1",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/f39ac405e38a4f1cb9f734b18f281366/3000.jpeg",
+      "publishedAt": "2022-07-13T06:26:40Z"
+    },
+    {
+      "author": "LISA MASCARO and FARNOUSH AMIRI",
+      "title": "Jan. 6 probe: Trump sets rally after 'unhinged' WH meeting",
+      "description": "WASHINGTON (AP) — In a heated, “unhinged” dispute, Donald Trump fought objections from his White House lawyers to a plan, eventually discarded, to seize states' voting machines and then, in a last ditch effort to salvage his presidency, summoned supporters to march on the U.S.",
+      "url": "https://apnews.com/78d2471f3788a82290f04d02b2b50520",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/760d6cfb4b7048a28c008179be7906bf/3000.jpeg",
+      "publishedAt": "2022-07-12T04:02:36Z"
+    },
+    {
+      "author": "OLEKSANDR STASHEVSKYI, HANNA ARHIROVA and MARIA GRAZIA MURRU",
+      "title": "Minister: Ukraine needs assurances to resume grain exports",
+      "description": "Kyiv, Ukraine (AP) — The Ukrainian foreign minister says grain exports from his country's ports won't resume without security guarantees for ship owners, cargo owners and Ukraine as an independent nation.",
+      "url": "https://apnews.com/6edbc1c4a8ccb9757a6068c1b215946b",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/b5857c6bbc434c1385a929b1a8ddf68c/3000.jpeg",
+      "publishedAt": "2022-07-13T10:04:46Z"
+    },
+    {
+      "author": "ACACIA CORONADO and PAUL J. WEBER",
+      "title": "Uvalde's new anguish: Video shows police waiting in school",
+      "description": "UVALDE, Texas (AP) — A new wave of anger swept through Uvalde on Tuesday over surveillance footage of police officers in body armor milling in the hallway of Robb Elementary School while a gunman carried out a massacre inside a fourth-grade classroom where 19 children and two teachers were killed.",
+      "url": "https://apnews.com/bfb69140c26a0586d27d7ade41ce818f",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/d0b537a1d9ac45bdb7543743bda81428/2548.jpeg",
+      "publishedAt": "2022-07-12T14:59:59Z"
+    },
+    {
+      "author": "The Associated Press",
+      "title": "EXPLAINER: What's the impact of euro parity with the dollar?",
+      "description": "The euro is hovering close to parity with the dollar, falling to its lowest level in 20 years and even briefly touching a one-to-one exchange rate with the U.S.",
+      "url": "https://apnews.com/7b8bfe3429feefd9465e985369998e77",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/3217f3534f434f2bbbe0e1f5e5471f9a/3000.jpeg",
+      "publishedAt": "2022-07-13T17:00:38Z"
+    },
+    {
+      "author": "AMANDA SEITZ",
+      "title": "LGBTQ harassment, slurs abound on social media, report says",
+      "description": "WASHINGTON (AP) — Social media platforms including Facebook and TikTok are failing to stop hate and threats against LGBTQ users, a report issued Wednesday from advocacy group GLAAD found.",
+      "url": "https://apnews.com/4e2208f50ba038086f55f3021a7af397",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/c8d0b543b4b441b5bde8d760b5c3b83c/3000.jpeg",
+      "publishedAt": "2022-07-13T12:04:23Z"
+    },
+    {
+      "author": null,
+      "title": "Cost-of-living crisis to hit women hardest, report says",
+      "description": "GENEVA (AP) — A cost-of-living crisis sparked in part by higher fuel and food prices is expected to hit women the hardest, the World Economic Forum reported Wednesday, pointing to a widening gender gap in the global labor force.",
+      "url": "https://apnews.com/606d0f4a99a1792e223b49bcd2eb17cc",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/1f8c15081de94e3098aa4d821e52306d/3000.jpeg",
+      "publishedAt": "2022-07-13T09:24:28Z"
+    }
+  ]
+}
