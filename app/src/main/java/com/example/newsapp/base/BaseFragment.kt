@@ -27,7 +27,6 @@ abstract class BaseFragment<DB : ViewDataBinding> : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = DataBindingUtil.inflate(inflater, getLayoutRes(), container, false)
-        super.onCreateView(inflater, container, savedInstanceState)
         return binding.root
     }
 

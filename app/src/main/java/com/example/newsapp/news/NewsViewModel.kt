@@ -31,6 +31,10 @@ class NewsViewModel @Inject constructor(
             DataResource.Error(message)
     }
 
+    init {
+        getArticles()
+    }
+
     fun getArticles() {
         launchCoroutine {
 

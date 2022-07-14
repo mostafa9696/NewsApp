@@ -10,11 +10,16 @@ import com.example.newsapp.databinding.ItemArticleBinding
 import com.example.newsapp.model.ArticlePresentation
 
 class ArticlesAdapter(
-    var articles: List<ArticlePresentation>,
     var onItemClick: (item: ArticlePresentation) -> Unit
 ) :
     RecyclerView.Adapter<ArticlesAdapter.NewsViewHolder>() {
 
+    var articles: List<ArticlePresentation> = ArrayList()
+
+    fun setArticlesData(articles: List<ArticlePresentation>) {
+        this.articles = articles
+        notifyDataSetChanged()
+    }
 
     inner class NewsViewHolder(var binding: ItemArticleBinding) :
         RecyclerView.ViewHolder(binding.root) {

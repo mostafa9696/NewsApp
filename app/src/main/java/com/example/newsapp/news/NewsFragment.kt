@@ -17,16 +17,22 @@ import dagger.hilt.android.AndroidEntryPoint
 class NewsFragment : BaseFragment<FragmentNewsBinding>() {
 
     private val viewModel: NewsViewModel by viewModels()
-    lateinit var adapter: ArticlesAdapter
+
+    val adapter: ArticlesAdapter by lazy {
+        ArticlesAdapter {
+            val action = NewsFragmentDirections.actionNewsFragmentToDetailsFragment(it)
+            findNavController().navigate(action)
+        }
+    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        getArticles()
+        binding.articlesRv.adapter = adapter
+        observeOnArticles()
     }
 
-    private fun getArticles() {
-        viewModel.getArticles()
+    private fun observeOnArticles() {
 
         viewModel.newsLiveData.observe(viewLifecycleOwner) {
             when (it) {
@@ -45,11 +51,7 @@ class NewsFragment : BaseFragment<FragmentNewsBinding>() {
 
     private fun setNewsList(articles: List<ArticlePresentation>?) {
         articles?.let {
-            adapter = ArticlesAdapter(articles) {
-                val action = NewsFragmentDirections.actionNewsFragmentToDetailsFragment(it)
-                findNavController().navigate(action)
-            }
-            binding.articlesRv.adapter = adapter
+            adapter.setArticlesData(it)
         }
     }
 
